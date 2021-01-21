@@ -1,7 +1,7 @@
 import numpy as np
 latents = sorted(os.listdir('latent_representations'))
 
-out_file = '/content/gdrive/MyDrive/GAN/test/train/stylegan-encoder/output_vectors.npy'
+out_file = 'where_you_want_to_save_the_output'
 
 final_w_vectors = []
 for img_id in good_images:
